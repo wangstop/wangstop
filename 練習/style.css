@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.all {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.all .box1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+}
+
+.all .box1 .box2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 95%;
+  left: 0px;
+}
+/*# sourceMappingURL=style.css.map */
